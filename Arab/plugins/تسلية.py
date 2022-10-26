@@ -11,7 +11,7 @@ import shutil
 
 from bs4 import BeautifulSoup
 from ..helpers.utils import reply_id
-plugin_category = "@iqthon"
+plugin_category = "@kyany_el5as"
 import urllib
 from telethon.tl import functions
 from Arab.utils.decorators import register
@@ -63,8 +63,8 @@ async def crop(imagefile, endname, x):
     inverted_image.save(endname)
 CMD_FIG = {    "slant": "slant",    "3D": "3-d",    "5line": "5lineoblique",    "alpha": "alphabet",    "banner": "banner3-D",    "doh": "doh",    "basic": "basic",    "binary": "binary",    "iso": "isometric1",    "letter": "letters",    "allig": "alligator",    "dotm": "dotmatrix",    "bubble": "bubble",    "bulb": "bulbhead",    "digi": "digital"}
 button = ["0", "1", "2", "3", "4", "5", "6", "7"]
-kno = [    "100% تحبك وتخاف عليك",    "100% يحبج ويخاف عليج",    "91% جـزء من گـلبه ",    "81% تموت عليك ههاي ",    "81% يموت عليج ههذا ",    "هاه اخي ؟  🏳‍🌈",    "40% واحد حيوان ومصلحه عوفه ",    "50% شوف شعندك وياه ",    "30% خاين نصحيا عوفيه ميفيدج ",    "25% مصادق غيرج ويكلج احبج",    "25% واحد كلب ابن كلب عوفه",    "0% يكهرك ",    "0% تكرهك ",    "@iqthon",]
-arb = [    "100%",    "99%",    "98%",    "97%",    "96%",    "95%",    "90%",    "89%",    "88%",    "87%",    "86%",    "85%",    "80%",    "79%",    "78%",    "77%",    "76%",    "75%",    "70%",    "69%",    "68%",    "67%",    "66%",    "65%",    "60%",   "59%",    "58%",    "57%",    "56%",    "55%",    "50%",    "48%",    "47%",    "46%",    "45%",    "40%",    "39%",    "38%",    "37%",    "36%",    "35%",    "30%",    "29%",    "28%",    "27%",    "25%",    "20%",    "19%",    "18%",    "17%",    "16%",    "15%",    "10%",    "9%",    "8%",    "7%",    "6%",    "5%",    "4%",    "3%",    "2%",    "1%",    "0%",    "@iqthon",]
+kno = [    "100% تحبك وتخاف عليك",    "100% يحبج ويخاف عليج",    "91% جـزء من گـلبه ",    "81% تموت عليك ههاي ",    "81% يموت عليج ههذا ",    "هاه اخي ؟  🏳‍🌈",    "40% واحد حيوان ومصلحه عوفه ",    "50% شوف شعندك وياه ",    "30% خاين نصحيا عوفيه ميفيدج ",    "25% مصادق غيرج ويكلج احبج",    "25% واحد كلب ابن كلب عوفه",    "0% يكهرك ",    "0% تكرهك ",    "@kyany_el5as",]
+arb = [    "100%",    "99%",    "98%",    "97%",    "96%",    "95%",    "90%",    "89%",    "88%",    "87%",    "86%",    "85%",    "80%",    "79%",    "78%",    "77%",    "76%",    "75%",    "70%",    "69%",    "68%",    "67%",    "66%",    "65%",    "60%",   "59%",    "58%",    "57%",    "56%",    "55%",    "50%",    "48%",    "47%",    "46%",    "45%",    "40%",    "39%",    "38%",    "37%",    "36%",    "35%",    "30%",    "29%",    "28%",    "27%",    "25%",    "20%",    "19%",    "18%",    "17%",    "16%",    "15%",    "10%",    "9%",    "8%",    "7%",    "6%",    "5%",    "4%",    "3%",    "2%",    "1%",    "0%",    "@kyany_el5as",]
 @iqthon.on(admin_cmd(pattern="غبي(?: |$)(.*)"))
 async def _(event):
     "أمر الرسوم المتحركة"
@@ -546,13 +546,13 @@ async def _(event):
 async def iqvois(vois):
   rl = random.randint(3,267)
   url = f"https://t.me/bsmaatt/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="- @IQTHON",parse_mode="html")
+  await vois.client.send_file(vois.chat_id,url,caption="- @kyany_el5as",parse_mode="html")
 
 @iqthon.on(admin_cmd(outgoing=True, pattern="قران$"))
 async def iqvois(vois):
   rl = random.randint(2,101)
   url = f"https://t.me/qreen1/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="- @IQTHON",parse_mode="html")
+  await vois.client.send_file(vois.chat_id,url,caption="- @kyany_el5as",parse_mode="html")
 @iqthon.on(admin_cmd(pattern="ثعبان(?: |$)(.*)"))
 async def _(event):
     "أمر الرسوم المتحركة"
