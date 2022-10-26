@@ -53,7 +53,7 @@ from telethon import client, events
 ALIVE = gvarstatus("OR_ALIVE") or "(فحص|السورس)"
 UPDATE = gvarstatus("OR_UPDATE") or "(اعاده تشغيل|تحديث)"
 ORDERS = gvarstatus("OR_ORDERS") or "(الاوامر|ألاوامر|اوامري|أوامري|م)"
-IQTHONPC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/74066cb3ddb0bdba1c4b7.mp4"
+IQTHONPC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/646133a60410bf55672ca.mp4"
 LOGS = logging.getLogger(os.path.basename(__name__))
 LOGS1 = logging.getLogger(__name__)
 ppath = os.path.join(os.getcwd(), "temp", "githubuser.jpg")
@@ -69,7 +69,7 @@ vlist = [    "ALIVE_PIC",    "ALIVE_EMOJI",    "ALIVE_TELETHONIQ",    "ALIVE_TEX
 DELETE_TIMEOUT = 5
 thumb_image_path = os.path.join(Config.TMP_DOWNLOAD_DIRECTORY, "thumb_image.jpg")
 oldvars = {    "PM_PIC": "pmpermit_pic",    "PM_TEXT": "pmpermit_txt",    "PM_BLOCK": "pmblock",}
-IQPIC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/74066cb3ddb0bdba1c4b7.mp4"
+IQPIC = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/646133a60410bf55672ca.mp4"
 def convert_from_bytes(size):
     power = 2 ** 10
     n = 0
@@ -89,8 +89,8 @@ async def iq(iqthonevent):
     ms = (end - start).microseconds / 1000
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "🝳︙"
-    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇 𝖺𝗅 𝖺𝗋𝖺𝖻 𓃠"
-    IQTHON_IMG = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/74066cb3ddb0bdba1c4b7.mp4"
+    ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "𝗐𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝖾𝗅𝖾𝗍𝗁𝗈𝗇 WELSON 𓃠"
+    IQTHON_IMG = gvarstatus("ALIVE_PIC") or "https://telegra.ph/file/646133a60410bf55672ca.mp4"
     tg_bot = Config.TG_BOT_USERNAME
     me = await iqthonevent.client.get_me()
     my_last = me.last_name
@@ -125,7 +125,7 @@ fahs = """‎⿻┊My 𖠄 {my_mention} ٫
 ‌‎⿻┊UpTimE 𖠄 {uptime} ٫
 ‌‎⿻┊‌‎PinG 𖠄 {ping} ٫
 ‌‎⿻┊‌‎VeRsIoN 𖠄 (7.7) ,
-‌‎⿻┊‌‎TeLeThoN AraB 𖠄 @IQTHON"""
+‌‎⿻┊‌‎TeLeThoN WELSON 𖠄 @kyany_el5as"""
 
 @iqthon.on(admin_cmd(pattern="رابط التنصيب(?: |$)(.*)"))    
 async def source(e):
