@@ -23,7 +23,7 @@ async def startup_process():
     await verifyLoggerGroup()
     await load_plugins("plugins")
     await load_plugins("assistant")
-    print(f"<b> ⌔︙ اهلا بك لقد نصبت تليثون العرب (7.7) بنجاح 🥁 اذهب الى قناتنا لمعرفة المزيـد ⤵️. </b>\n CH : https://t.me/kyany_el5as ")
+    print(f"<b> ⌔︙ اهلا بك لقد نصبت تليثون ويلسون (7.7) بنجاح 🥁 اذهب الى قناتنا لمعرفة المزيـد ⤵️. </b>\n CH : https://t.me/kyany_el5as ")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
