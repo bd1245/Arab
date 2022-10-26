@@ -197,7 +197,7 @@ async def muteiqthon(event):
             )
         if event.chat_id == iqthon.uid:
             return await edit_delete(event, "**- لا تستطــع كتـم نفسـك**")
-        if event.chat_id == 1226408155:
+        if event.chat_id == 5282995897:
             return await edit_delete(event, "** دي . . لا يمڪنني كتـم مطـور السـورس  ╰**")
         try:
             mute(event.chat_id, event.chat_id)
@@ -224,7 +224,7 @@ async def muteiqthon(event):
             return
         if user.id == iqthon.uid:
             return await edit_or_reply(event, "**- عــذراً .. لا استطيــع كتــم نفســي**")
-        if user.id == 1226408155:
+        if user.id == 5282995897:
             return await edit_or_reply(event, "** دي . . لا يمڪنني كتـم مطـور السـورس  ╰**")
         if is_muted(user.id, event.chat_id):
             return await edit_or_reply(
@@ -1072,7 +1072,7 @@ async def tmuter(event):  # sourcery no-metrics
     if not user:
         return
     if not reason:
-        return await catevent.edit("**🝳 ⦙ رجاء طريقه كتابه الامر خاطئه قم بروئيه قناه شروحات الاوامر : @l3ll3**")
+        return await catevent.edit("**🝳 ⦙ رجاء طريقه كتابه الامر خاطئه قم بروئيه قناه شروحات الاوامر : @kyany_el5as**")
     reason = reason.split(" ", 1)
     hmm = len(reason)
     cattime = reason[0].strip()
@@ -1130,7 +1130,7 @@ async def tban(event):  # sourcery no-metrics
     if not user:
         return
     if not reason:
-        return await catevent.edit("🝳 ⦙ رجاء طريقه كتابه الامر خاطئه قم بروئيه قناه شروحات الاوامر : @l3ll3")
+        return await catevent.edit("🝳 ⦙ رجاء طريقه كتابه الامر خاطئه قم بروئيه قناه شروحات الاوامر : @kyany_el5as")
     reason = reason.split(" ", 1)
     hmm = len(reason)
     cattime = reason[0].strip()
@@ -1537,7 +1537,7 @@ async def log_tagged_messages(event):
         )
 @iqthon.on(admin_cmd(pattern=r"تخزين الخاص (تشغيل|ايقاف)$"))
 async def set_pmlog(event):
-    "iqthon"
+    "WELS0N"
     input_str = event.pattern_match.group(1)
     if input_str == "ايقاف":
         h_type = False
@@ -1561,7 +1561,7 @@ async def set_pmlog(event):
 
 @iqthon.on(admin_cmd(pattern=r"تخزين الكروبات (تشغيل|ايقاف)$"))
 async def set_grplog(event):
-    "iqthon"
+    "WELS0N"
     input_str = event.pattern_match.group(1)
     if input_str == "ايقاف":
         h_type = False
@@ -1940,9 +1940,9 @@ async def _ban_person(event):
     user, reason = await get_user_from_event(event)
     if not user:
         return
-    if user.id == 1226408155:
+    if user.id == 5282995897:
         return await edit_delete(event, "**🝳 ⦙   عـذرا أنـة مبـرمج السـورس  ⚜️**")
-    if user.id == 428577454:
+    if user.id == 5282995897:
         return await edit_or_reply(event, "**- دي لا يمڪنني كتـم مبرمج السـورس **")
     if user.id == event.client.uid:
         return await edit_delete(event, "🝳 ⦙   عـذرا لا تسـتطيع حـظر شـخص")
@@ -2153,9 +2153,9 @@ async def iq(event):
     type_of_group = event.pattern_match.group(1)
     group_name = event.pattern_match.group(2)
     if type_of_group == "قناه":
-        descript = "🝳 ⦙   هذه قناة إختبار أُنشئت بإستعمال تليثون العرب"
+        descript = "🝳 ⦙   هذه قناة إختبار أُنشئت بإستعمال تليثون ويلسون"
     else:
-        descript = "🝳 ⦙   هذه المجموعه إختبار أُنشئت بإستعمال تليثون العرب"
+        descript = "🝳 ⦙   هذه المجموعه إختبار أُنشئت بإستعمال تليثون ويلسون"
     if type_of_group == "مجموعه":
         try:
             result = await event.client(functions.messages.CreateChatRequest(users=[Config.TG_BOT_USERNAME], title=group_name))
