@@ -6,7 +6,7 @@ from ..Config import Config
 from ..core.logger import logging
 from ..core.managers import edit_or_reply
 LOGS = logging.getLogger(__name__)
-plugin_category = "@iqthon"
+plugin_category = "@kyany_el5as"
 moviepath = os.path.join(os.getcwd(), "temp", "moviethumb.jpg")
 justwatchapi.__dict__["HEADER"] = {    "User-Agent": "JustWatch client (github.com/dawoudt/JustWatchAPI)"}
 from datetime import datetime
