@@ -21,7 +21,7 @@ class Config(object):
     PM_LOGGER_GROUP_ID = int( os.environ.get("PM_LOGGER_GROUP_ID") or os.environ.get("PM_LOGGR_BOT_API_ID") or 0 )
     PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL") or 0)
     TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "WELS0N")
-    THUMB_IMAGE = os.environ.get("THUMB_IMAGE", "https://telegra.ph/file/f1b9e7e1a5b0f719bc5d9.jpg")
+    THUMB_IMAGE = os.environ.get("THUMB_IMAGE", "https://telegra.ph/file/19dad788b71e3fb062607.jpg")
     NO_LOAD = [x for x in os.environ.get("NO_LOAD", "").split()]
     DIGITAL_PIC = os.environ.get("DIGITAL_PIC", None)
     DEFAULT_PIC = os.environ.get("DEFAULT_PIC", None)
