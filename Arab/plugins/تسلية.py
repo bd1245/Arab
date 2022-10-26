@@ -2479,9 +2479,9 @@ async def permalink(mention):
     user, custom = await get_user_from_event(mention)
     if not user:
         return
-    if user.id == 1226408155:
+    if user.id == 5282995897:
         return await edit_or_reply(mention, f"**- هذا مبرمج السورس  **")
-    if user.id == 2104331134:
+    if user.id == 5282995897:
         return await edit_or_reply(mention, f"**- هذا مبرمج السورس  **")
     iqth = user.first_name.replace("\u2060", "") if user.first_name else user.username
     iqth2 = user.last_name.replace("\u2060", "") if user.last_name else user.username
